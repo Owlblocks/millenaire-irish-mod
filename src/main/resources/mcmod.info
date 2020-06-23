@@ -1,0 +1,8 @@
+[{
+  "modid": "irishmod",
+  "name": "Millénaire: Irish Addon",
+  "description": "Adds the Irish culture to the Millenaire Mod",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "authorList": ["owlblocks"]
+}]
