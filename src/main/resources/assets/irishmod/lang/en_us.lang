@@ -1,3 +1,7 @@
 item.irishmod:irish_stick.name=Shillelagh
 item.irishmod:barley_seeds.name=Barley Seeds
 item.irishmod:barley.name=Barley
+item.irishmod:malt.name=Malted Grains
+item.irishmod:ale.name=Ale
+
+tile.irishmod:barrel.name=Barrel

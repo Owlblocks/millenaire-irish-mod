@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "axis=y":  { "model": "irishmod:barrel" },
+        "axis=z":   { "model": "irishmod:barrel", "x": 90 },
+        "axis=x":   { "model": "irishmod:barrel", "x": 90, "y": 90 },
+        "axis=none": { "model": "irishmod:barrel" }
+    }
+}

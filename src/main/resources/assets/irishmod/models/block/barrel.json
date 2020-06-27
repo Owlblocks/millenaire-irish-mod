@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "irishmod:blocks/barrel_top",
+        "side": "irishmod:blocks/barrel"
+    }
+}

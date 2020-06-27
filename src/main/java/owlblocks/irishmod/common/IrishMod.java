@@ -1,5 +1,7 @@
 package common;
 
+import org.apache.logging.log4j.Logger;
+
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -15,8 +17,11 @@ public class IrishMod {
 	@SidedProxy(clientSide = "client.ClientProxy", serverSide = "common.CommonProxy")
 	public static CommonProxy proxy;
 	
+	public static Logger logger;
+	
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
+		logger = event.getModLog();
 		proxy.preInit(event);
 	}
 	

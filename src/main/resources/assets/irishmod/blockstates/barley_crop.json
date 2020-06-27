@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "age=0": { "model": "irishmod:barley_stage0" },
+        "age=1": { "model": "irishmod:barley_stage1" },
+        "age=2": { "model": "irishmod:barley_stage2" },
+        "age=3": { "model": "irishmod:barley_stage3" },
+        "age=4": { "model": "irishmod:barley_stage4" },
+        "age=5": { "model": "irishmod:barley_stage5" },
+        "age=6": { "model": "irishmod:barley_stage6" },
+        "age=7": { "model": "irishmod:barley_stage7" }
+    }
+}
