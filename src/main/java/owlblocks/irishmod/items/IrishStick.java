@@ -13,17 +13,14 @@ import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
-public class IrishStick extends Item implements IHasModel {
+public class IrishStick extends ModItem implements IHasModel {
 	
 	private static final UUID STAFF_SPEED_MODIFIER = UUID.fromString("b052fd0e-07f9-4993-9ee9-44d00a2fed24");
 	
 	public IrishStick() {
-		setRegistryName("irish_stick");
-		setUnlocalizedName(getRegistryName().toString());
-		
+		super("irish_stick");
 		setCreativeTab(CreativeTabs.COMBAT);
 		setMaxStackSize(1);
-		ModItems.ITEMS.add(this);
 		setMaxDamage(500);
 	}
 	

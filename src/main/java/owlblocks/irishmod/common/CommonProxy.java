@@ -1,5 +1,6 @@
 package common;
 
+import blocks.ModBlocks;
 import items.IrishStick;
 import items.ModItems;
 import net.minecraft.block.Block;
@@ -28,12 +29,12 @@ public class CommonProxy {
 	
 	@SubscribeEvent
 	public static void registerBlocks(RegistryEvent.Register<Block> event) {
-		
+		event.getRegistry().registerAll(ModBlocks.BLOCKS.toArray(new Block[0]));
 	}
 	
 	@SubscribeEvent
 	public static void registerItems(RegistryEvent.Register<Item> event) {
-		event.getRegistry().register(ModItems.IRISH_STICK);
+		event.getRegistry().registerAll(ModItems.ITEMS.toArray(new Item[0]));
 	}
 	
 	public void registerItemRenderer(Item item, int meta, String id) {}

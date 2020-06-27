@@ -10,5 +10,7 @@ public class ModItems {
 	public static List<Item> ITEMS = new ArrayList<Item>();
 	
 	public static Item IRISH_STICK = new IrishStick();
+	public static Item BARLEY_SEEDS = new BarleySeeds();
+	public static Item BARLEY_GRAIN = new ModItem("barley");
 	
 }
