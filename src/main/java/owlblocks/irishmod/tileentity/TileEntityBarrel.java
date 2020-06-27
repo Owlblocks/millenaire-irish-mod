@@ -1,5 +1,6 @@
 package tileentity;
 
+import common.IrishConfig;
 import common.IrishMod;
 import items.ModItems;
 import net.minecraft.entity.player.EntityPlayer;
@@ -21,9 +22,9 @@ public class TileEntityBarrel extends TileEntity implements ITickable {
 	public static final String ID_MALT = "barrel_ferment_time";
 	public static final String ID_DRINK = "barrel_drinks_left";
 	
-	private static final int TICK_GOAL = 240;
-	private static final int MALT_GOAL = 5;
-	private static final int DRINKS_MADE = 5;
+	private static final int TICK_GOAL = IrishConfig.brewTime;
+	private static final int MALT_GOAL = IrishConfig.brewMaltNeeded;
+	private static final int DRINKS_MADE = IrishConfig.brewAleProduced;
 	
 	private BrewingStep currentStep = BrewingStep.EMPTY;
 	private int maltAdded = 0;
